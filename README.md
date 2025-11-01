@@ -52,6 +52,7 @@ SYSTEM DESIGN
 
 
 RESULT
+---
 <img width="850" height="626" alt="image" src="https://github.com/user-attachments/assets/9e420a61-6de3-4eea-b040-1099d97bdca2" />
 
 
@@ -84,6 +85,14 @@ RESULT
 * **Government and Community Projects** – Supports sustainable farming and water conservation initiatives.
 
 ---
+###  **Alignment with UN Sustainable Development Goals (SDGs)**
+
+* **SDG 2 – Zero Hunger:** Promotes sustainable agriculture and enhances food security.
+* **SDG 6 – Clean Water and Sanitation:** Ensures efficient water usage and minimizes wastage.
+* **SDG 9 – Industry, Innovation & Infrastructure:** Encourages the integration of IoT technology in modern farming.
+* **SDG 11 – Sustainable Cities & Communities:** Supports eco-friendly and water-efficient urban farming practices.
+* **SDG 12 – Responsible Consumption & Production:** Promotes efficient resource utilization and reduces waste generation.
+* **SDG 13 – Climate Action:** Minimizes environmental impact and fosters climate-resilient agricultural methods.
 
 
 
