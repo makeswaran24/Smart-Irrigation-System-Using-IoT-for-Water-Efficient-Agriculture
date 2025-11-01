@@ -16,23 +16,36 @@ OBJECTIVE
 * To regulate water flow automatically based on soil moisture data.
 * To reduce water wastage and enhance overall water usage efficiency for crops.
 PROPOSED APPROACH
-Step 1: System Initialization
-Configure ESP8266 I/O pins for ultrasonic sensors (TRIG/ECHO), relay, and servo motors.
-Initialize Serial communication and DHT11 sensor for temperature acquisition.
-Step 2: Water Level Sensing
-Measure the water levels in Tank 1 and Tank 2 using the HC-SR04 ultrasonic sensors.
-Convert the pulse duration into actual distance (in centimeters).
-Step 3: Environmental Data Acquisition
-Read ambient temperature from the DHT11 sensor (digital).
-Measure soil moisture through the analog input pin (A0).
-Step 4: Signal Processing and Conversion
-Process ultrasonic echo times to compute distance.
-Convert temperature readings to °C and scale analog soil moisture values for comparison.Step 5: Threshold Evaluation and Control Action
-If Tank 1 < WATER_THRESHOLD, Temp > TEMP_THRESHOLD, and Soil < POT_THRESHOLD → Relay ON, DC Motor 1 ON, DC Motor 2 OFF.
-If Tank 2 < WATER_THRESHOLD, Temp > TEMP_THRESHOLD, and Soil < POT_THRESHOLD → Relay ON, DC Motor 2 ON, DC Motor 1 OFF.
-Otherwise → Relay OFF, Both Motors OFF.
-STEP 6 :MONITORING 
- Log sensor readings and actuator states via  UART for real-time monitoring .
+### **System Operation Steps**
+
+**Step 1: System Initialization**
+
+* Configure ESP8266 I/O pins for ultrasonic sensors (TRIG/ECHO), relay, and servo motors.
+* Initialize Serial communication and DHT11 sensor for temperature acquisition.
+
+**Step 2: Water Level Sensing**
+
+* Measure the water levels in Tank 1 and Tank 2 using the HC-SR04 ultrasonic sensors.
+* Convert the pulse duration into actual distance (in centimeters).
+
+**Step 3: Environmental Data Acquisition**
+
+* Read ambient temperature from the DHT11 sensor (digital).
+* Measure soil moisture through the analog input pin (A0).
+
+**Step 4: Signal Processing and Conversion**
+
+* Process ultrasonic echo times to compute distance.
+* Convert temperature readings to °C and scale analog soil moisture values for comparison.
+
+**Step 5: Threshold Evaluation and Control Action**
+
+* If **Tank 1 < WATER_THRESHOLD**, **Temp > TEMP_THRESHOLD**, and **Soil < POT_THRESHOLD** → **Relay ON**, **DC Motor 1 ON**, **DC Motor 2 OFF**.
+* If **Tank 2 < WATER_THRESHOLD**, **Temp > TEMP_THRESHOLD**, and **Soil < POT_THRESHOLD** → **Relay ON**, **DC Motor 2 ON**, **DC Motor 1 OFF**.
+* Otherwise → **Relay OFF**, **Both Motors OFF**.
+
+
+
 
 SYSTEM DESIGN 
 <img width="1781" height="897" alt="image" src="https://github.com/user-attachments/assets/43ac625d-d186-4036-83ee-a8a1172362bd" />
