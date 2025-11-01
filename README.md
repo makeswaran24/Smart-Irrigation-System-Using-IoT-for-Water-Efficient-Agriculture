@@ -53,8 +53,14 @@ SYSTEM DESIGN
 
 RESULT
 ---
-<img width="850" height="626" alt="image" src="https://github.com/user-attachments/assets/9e420a61-6de3-4eea-b040-1099d97bdca2" />
+•	The entire configuration of electronic components used to monitor and regulate water levels in two distinct tanks, as well as environmental factors like soil moisture and temperature, is depicted in the hardware setup in Figure 4.4. The ESP8266 NodeMCU is the system's main controller and acts as its main processing and decision-making component.
+•	To continuously measure the water levels in Tanks 1 and 2, two HC-SR04 Ultrasonic Sensors are placed at the top of each tank. Each sensor uses TRIG and ECHO pins to function. The ESP8266 sends out ultrasonic pulses and uses the echo return time to determine the water level. A soil moisture sensor is attached to the A0 analog input pin, and a DHT11 sensor is used in conjunction with the system to measure the ambient temperature.
 
+
+
+<img width="850" height="626" alt="image" src="https://github.com/user-attachments/assets/9e420a61-6de3-4eea-b040-1099d97bdca2" />
+illustrates the overall wiring and signal connections between the sensors, actuators, and the ESP8266 microcontroller used in the Dual Tank Management System. Each tank is equipped with an HC-SR04 ultrasonic sensor, whose TRIG and ECHO pins are connected to the digital GPIO pins of the ESP8266 for accurate water-level measurement. The DHT11 sensor is connected to provide real-time temperature readings, while the soil moisture sensor is interfaced through the analog input pin (A0) of the controller.
+•	A relay module is used to control the power supply to the two DC motors, where Motor 1 pumps water to Tank 1 and Motor 2 supplies water to Tank 2. The ESP8266 sends switching signals to the relay based on sensor inputs, ensuring that water is pumped only when required. Power connections are shared through a regulated 5V supply line to maintain stable operation.
 
 <img width="738" height="626" alt="image" src="https://github.com/user-attachments/assets/be98ddb5-978b-4986-8e06-248eba11e716" />
 
