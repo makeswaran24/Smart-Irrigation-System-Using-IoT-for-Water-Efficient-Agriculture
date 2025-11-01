@@ -71,8 +71,6 @@ RESULT
 * **Automation** → Relay and servo mechanisms eliminate the need for manual control.
 * **Dual Tank Management** → Enables independent operation of two separate water sources.
 * **Real-Time Monitoring** → Adafruit IO dashboard provides live sensor data and irrigation status remotely.
-* Here’s your content formatted clearly as **applications of the smart irrigation system** 👇
-
 ---
 
 ### **APPLICATIONS**
