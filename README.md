@@ -19,7 +19,7 @@ Overall, it shows how IoT can transform modern agriculture by improving water us
 
   ----
 
-SYSTEM DESIGN 
+**SYSTEM DESIGN **
 <img width="1781" height="897" alt="image" src="https://github.com/user-attachments/assets/43ac625d-d186-4036-83ee-a8a1172362bd" />
 
 **Step 1: System Initialization**
