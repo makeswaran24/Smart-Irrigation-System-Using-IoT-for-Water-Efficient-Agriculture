@@ -68,7 +68,9 @@ This illustrates the overall wiring and signal connections between the sensors, 
 <img width="738" height="626" alt="image" src="https://github.com/user-attachments/assets/be98ddb5-978b-4986-8e06-248eba11e716" />
 
 •	The Adafruit IO dashboard displays live sensor values such as soil moisture, temperature, humidity, and water level, allowing the user to observe the field conditions continuously from anywhere.
+
 •	Interactive widgets like gauges, charts, and toggle switches enable the user to both monitor data trends and manually control the irrigation pump if needed, making the system flexible and user-friendly.
+
 •	By viewing real-time updates on the dashboard, farmers can make quick and informed decisions, reducing water wastage and improving crop health through data-driven irrigation management.
 
 <img width="825" height="747" alt="image" src="https://github.com/user-attachments/assets/9a752283-133a-4842-9db4-5034fbda3501" />
