@@ -44,17 +44,25 @@ PROPOSED APPROACH
 * If **Tank 2 < WATER_THRESHOLD**, **Temp > TEMP_THRESHOLD**, and **Soil < POT_THRESHOLD** → **Relay ON**, **DC Motor 2 ON**, **DC Motor 1 OFF**.
 * Otherwise → **Relay OFF**, **Both Motors OFF**.
 
-
-
-
 SYSTEM DESIGN 
 <img width="1781" height="897" alt="image" src="https://github.com/user-attachments/assets/43ac625d-d186-4036-83ee-a8a1172362bd" />
-Tank2 active, Servo1 ON, irrigation running
 
 
-<img width="1359" height="752" alt="image" src="https://github.com/user-attachments/assets/17def952-f1dd-4d8a-8601-7a02f138a3e7" />
+RESULT
+<img width="850" height="626" alt="image" src="https://github.com/user-attachments/assets/9e420a61-6de3-4eea-b040-1099d97bdca2" />
+<img width="738" height="626" alt="image" src="https://github.com/user-attachments/assets/be98ddb5-978b-4986-8e06-248eba11e716" />
+<img width="825" height="747" alt="image" src="https://github.com/user-attachments/assets/9a752283-133a-4842-9db4-5034fbda3501" />
+### 🌾 **CHALLENGES SOLVED**
+
+* **Water Level Monitoring** → Ultrasonic sensors prevent tank overflow and dry run.
+* **Soil Moisture Control** → Potentiometer ensures irrigation occurs only when needed.
+* **Temperature-Based Irrigation** → DHT11 sensor prevents crop stress during high heat.
+* **Automation** → Relay and servo mechanisms eliminate the need for manual control.
+* **Dual Tank Management** → Enables independent operation of two separate water sources.
+* **Real-Time Monitoring** → Adafruit IO dashboard provides live sensor data and irrigation status remotely.
+
+<img width="762" height="746" alt="image" src="https://github.com/user-attachments/assets/530742d9-56cb-49f2-a829-7450b6687643" />
 
 
 
 
-<img width="1547" height="897" alt="image" src="https://github.com/user-attachments/assets/47559297-5876-41a3-a511-4111408b11b9" />
