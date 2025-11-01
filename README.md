@@ -9,3 +9,5 @@ The system is a cost-effective and scalable solution for both small and large fa
 It helps farmers make better decisions by showing live data and trends over time. Cloud monitoring increases transparency and accessibility from anywhere. 
 The project also encourages using renewable rainwater resources to reduce groundwater depletion. 
 Overall, it shows how IoT can transform modern agriculture by improving water use and crop productivity.
+
+<img width="1547" height="897" alt="image" src="https://github.com/user-attachments/assets/47559297-5876-41a3-a511-4111408b11b9" />
