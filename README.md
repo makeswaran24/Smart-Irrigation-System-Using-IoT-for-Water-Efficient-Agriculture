@@ -60,7 +60,9 @@ RESULT
 
 
 <img width="850" height="626" alt="image" src="https://github.com/user-attachments/assets/9e420a61-6de3-4eea-b040-1099d97bdca2" />
-This illustrates the overall wiring and signal connections between the sensors, actuators, and the ESP8266 microcontroller used in the Dual Tank Management System. Each tank is equipped with an HC-SR04 ultrasonic sensor, whose TRIG and ECHO pins are connected to the digital GPIO pins of the ESP8266 for accurate water-level measurement. The DHT11 sensor is connected to provide real-time temperature readings, while the soil moisture sensor is interfaced through the analog input pin (A0) of the controller.
+
+
+•This illustrates the overall wiring and signal connections between the sensors, actuators, and the ESP8266 microcontroller used in the Dual Tank Management System. Each tank is equipped with an HC-SR04 ultrasonic sensor, whose TRIG and ECHO pins are connected to the digital GPIO pins of the ESP8266 for accurate water-level measurement. The DHT11 sensor is connected to provide real-time temperature readings, while the soil moisture sensor is interfaced through the analog input pin (A0) of the controller.
 
 
 •	A relay module is used to control the power supply to the two DC motors, where Motor 1 pumps water to Tank 1 and Motor 2 supplies water to Tank 2. The ESP8266 sends switching signals to the relay based on sensor inputs, ensuring that water is pumped only when required. Power connections are shared through a regulated 5V supply line to maintain stable operation.
