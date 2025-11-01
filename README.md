@@ -54,6 +54,7 @@ SYSTEM DESIGN
 RESULT
 ---
 •	The entire configuration of electronic components used to monitor and regulate water levels in two distinct tanks, as well as environmental factors like soil moisture and temperature, is depicted in the hardware setup in Figure 4.4. The ESP8266 NodeMCU is the system's main controller and acts as its main processing and decision-making component.
+
 •	To continuously measure the water levels in Tanks 1 and 2, two HC-SR04 Ultrasonic Sensors are placed at the top of each tank. Each sensor uses TRIG and ECHO pins to function. The ESP8266 sends out ultrasonic pulses and uses the echo return time to determine the water level. A soil moisture sensor is attached to the A0 analog input pin, and a DHT11 sensor is used in conjunction with the system to measure the ambient temperature.
 
 
