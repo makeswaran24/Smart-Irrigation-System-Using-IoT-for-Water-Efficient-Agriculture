@@ -9,12 +9,12 @@ The system is a cost-effective and scalable solution for both small and large fa
 It helps farmers make better decisions by showing live data and trends over time. Cloud monitoring increases transparency and accessibility from anywhere. 
 The project also encourages using renewable rainwater resources to reduce groundwater depletion. 
 Overall, it shows how IoT can transform modern agriculture by improving water use and crop productivity.
+
 OBJECTIVE
 * To develop an IoT-based smart irrigation system for efficient farm management.
 * To monitor soil moisture levels in real time using sensors and IoT connectivity.
 * To regulate water flow automatically based on soil moisture data.
 * To reduce water wastage and enhance overall water usage efficiency for crops.
-<img width="1436" height="322" alt="image" src="https://github.com/user-attachments/assets/473a4f88-fe67-43c2-9717-62a7122e69fc" />
 PROPOSED APPROACH
 Step 1: System Initialization
 Configure ESP8266 I/O pins for ultrasonic sensors (TRIG/ECHO), relay, and servo motors.
@@ -33,7 +33,7 @@ If Tank 2 < WATER_THRESHOLD, Temp > TEMP_THRESHOLD, and Soil < POT_THRESHOLD →
 Otherwise → Relay OFF, Both Motors OFF.
 STEP 6 :MONITORING 
  Log sensor readings and actuator states via  UART for real-time monitoring .
-<img width="2798" height="714" alt="image" src="https://github.com/user-attachments/assets/d09818ee-8ed4-462d-888b-d89bda763069" />
+
 SYSTEM DESIGN 
 <img width="1781" height="897" alt="image" src="https://github.com/user-attachments/assets/43ac625d-d186-4036-83ee-a8a1172362bd" />
 Tank2 active, Servo1 ON, irrigation running
