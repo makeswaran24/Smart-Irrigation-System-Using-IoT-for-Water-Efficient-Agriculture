@@ -10,9 +10,10 @@ It helps farmers make better decisions by showing live data and trends over time
 The project also encourages using renewable rainwater resources to reduce groundwater depletion. 
 Overall, it shows how IoT can transform modern agriculture by improving water use and crop productivity.
 OBJECTIVE
-To develop an IoT-based smart irrigation system.
-To monitor and regulate soil moisture automatically.
-To reduce water wastage and improve water efficiency for crops.
+To develop an IoT-based smart irrigation system for efficient farm management.
+To monitor soil moisture levels in real time using sensors and IoT connectivity.
+To regulate water flow automatically based on soil moisture data.
+To reduce water wastage and enhance overall water usage efficiency for crops.
 <img width="1436" height="322" alt="image" src="https://github.com/user-attachments/assets/473a4f88-fe67-43c2-9717-62a7122e69fc" />
 PROPOSED APPROACH
 STEP 1 : SYSTEM INITIALIZATION
