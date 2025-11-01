@@ -50,8 +50,15 @@ SYSTEM DESIGN
 
 RESULT
 <img width="850" height="626" alt="image" src="https://github.com/user-attachments/assets/9e420a61-6de3-4eea-b040-1099d97bdca2" />
+
+
 <img width="738" height="626" alt="image" src="https://github.com/user-attachments/assets/be98ddb5-978b-4986-8e06-248eba11e716" />
+
+
 <img width="825" height="747" alt="image" src="https://github.com/user-attachments/assets/9a752283-133a-4842-9db4-5034fbda3501" />
+
+<img width="762" height="746" alt="image" src="https://github.com/user-attachments/assets/530742d9-56cb-49f2-a829-7450b6687643" />
+
 ### 🌾 **CHALLENGES SOLVED**
 
 * **Water Level Monitoring** → Ultrasonic sensors prevent tank overflow and dry run.
@@ -61,7 +68,6 @@ RESULT
 * **Dual Tank Management** → Enables independent operation of two separate water sources.
 * **Real-Time Monitoring** → Adafruit IO dashboard provides live sensor data and irrigation status remotely.
 
-<img width="762" height="746" alt="image" src="https://github.com/user-attachments/assets/530742d9-56cb-49f2-a829-7450b6687643" />
 
 
 
